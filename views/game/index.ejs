@@ -1,0 +1,14 @@
+<div id="instructions">
+  <a href="/" target="_blank">Share link to race friends</a>
+  <button id='shake' class='hidden'>Shake</button>
+</div>
+<div id="waves">
+  <% for(var i=1;i<5;i++) { %>
+    <div id="wave<%= i %>"></div>
+  <% } %>
+</div>
+<div id="clouds">
+  <% for(var n=1;n<6;n++) { %>
+    <div class="cloud x<%= n %>"></div>
+  <% } %>
+</div>

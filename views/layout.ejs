@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title><%- title %></title>
+    <meta name="viewport" content="width=device-width">
+    <%- assets.css() %>
+  </head>
+    <body>
+      <%- body %>
+      <footer>
+        <a target="_blank" href="http://sailsjs.com">
+          <img src="/images/logo.png" alt="" />
+          <span class="hidden">Built with Sails.js</span>
+        </a>
+      </footer>
+      <%- assets.templateLibrary() %>
+      <%- assets.js() %>
+    </body>
+</html>
